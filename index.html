@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Calculation</title>
+</head>
+<body>
+    <h1>SGPA Calculation</h1>
+    <form action="/calculate_sgpa" method="POST">
+        <label>Discrete Mathematical Structures: </label>
+        <input type="text" name="maths"><br>
+        <label>Introduction to Data Science: </label>
+        <input type="text" name="ids"><br>
+        <label>Database Management Systems: </label>
+        <input type="text" name="dbms"><br>
+        <label>Computer Network: </label>
+        <input type="text" name="cn"><br>
+        <label>Java Programming: </label>
+        <input type="text" name="jp"><br>
+        <label>Agile Software Development: </label>
+        <input type="text" name="asd"><br>
+        <label>Java Programming Lab: </label>
+        <input type="text" name="jp_lab"><br>
+        <label>Database Management Systems Lab: </label>
+        <input type="text" name="dbms_lab"><br>
+        <label>Softskills and Aptitude II: </label>
+        <input type="text" name="ss2"><br>
+        <input type="submit" value="Calculate SGPA">
+    </form>
+
+    <h1>CGPA Calculation</h1>
+    <form action="/calculate_cgpa" method="POST">
+        <label>Semester 1 SGPA: </label>
+        <input type="text" name="sem1"><br>
+        <label>Semester 2 SGPA: </label>
+        <input type="text" name="sem2"><br>
+        <label>Semester 3 SGPA: </label>
+        <input type="text" name="sem3"><br>
+        <label>Semester 4 SGPA: </label>
+        <input type="text" name="sem4"><br>
+        <input type="submit" value="Calculate CGPA">
+    </form>
+</body>
+</html>
